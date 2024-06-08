@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(201, 209, 252);
+}
+.pano{
+    padding-top: 2%;
+}
+.nav-item{
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav-link.active{
+    color: aliceblue;
+}
+.nav-tabs .nav-link {
+    color: #007bff;
+}
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+}
+@media (min-width: 992px) {
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+}
+img
+{
+    padding-top: 5%;
+    background-color: rgb(201, 209, 252);
+}
+
+        .middle-scroll {
+            width: 50%;
+            float: left;
+            padding:100px
+        }
+        .right-side {           
+            width: 50%;
+            float: right;
+        }
+        .tables-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .tables-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .table-wrapper {
+            width: 48%;
+        }
+        
+        .woensdag, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+h2{
+    padding-top: 40px;
+    text-align: center;
+} 
+h1{
+    padding-top: 40px;
+    padding-left: 350px;
+}
+.tables-container{
+    padding-left: 150px;
+}       

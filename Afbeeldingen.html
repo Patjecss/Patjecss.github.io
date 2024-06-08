@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afbeeldingen</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        h1 {
+            margin-top: 20px;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .column {
+            flex: 1;
+            max-width: 45%;
+            margin: 10px;
+        }
+        
+        .team {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .team img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .team p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        </style>
+
+
+
+
+
+<body>
+    <div class="container">
+        <!-- Row with two equal columns -->
+        <div class="col-md-2"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="demo-content">
+                    <img class="pano img-fluid" src="img/header.jpg" alt="Header"> 
+                </div>
+            </div>
+        </div>
+       
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav nav-tabs" id="nav-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-home-tab" href="index.html" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-bestuur-tab" href="Bestuur.html" role="tab" aria-controls="nav-bestuur" aria-selected="false">Bestuur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-clubinfo-tab" href="Clubinfo.html" role="tab" aria-controls="nav-clubinfo" aria-selected="false">Clubinfo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-competities-tab" href="Competities.html" role="tab" aria-controls="nav-competities" aria-selected="false">Competities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-ploegen-tab" href="Ploegen.html" role="tab" aria-controls="nav-ploegen" aria-selected="false">Ploegen</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" id="nav-afbeeldingen-tab" href="#" role="button" aria-controls="nav-afbeeldingen" aria-selected="false" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Afbeeldingen</a>
+                        <div class="dropdown-menu" aria-labelledby="nav-afbeeldingen-tab">
+                            <a class="dropdown-item" href="Afbeeldingen2023.html">Afbeeldingen 2023</a>
+                            <a class="dropdown-item" href="Afbeeldingen2024.html">Afbeeldingen 2024</a>
+                            <a class="dropdown-item" href="Afbeeldingen.html">Afbeeldingen</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-uitslagen-tab" href="Uitslagen.html" role="tab" aria-controls="nav-uitslagen" aria-selected="false">Uitslagen en Klassement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-links-tab" href="Links.html" role="tab" aria-controls="nav-links" aria-selected="false">Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1>Ploegen per Afdeling seizoen 2023 - 2024</h1>
+    <div class="gallery">
+        <div class="column">
+            <div class="team">
+                <img src="img/Team_woensdag_1B.jpg" alt="Ploeg 1B">
+                <p>Ploeg 1</p>
+            </div>
+            <div class="team">
+                <img src="img/Team_woensdag_2eD.jpg" alt="Ploeg 2">
+                <p>Ploeg 2</p>
+            </div>
+            <!-- Voeg meer teams toe hier -->
+        </div>
+        <div class="column">
+            <div class="team">
+                <img src="img/TweedeD.jpg" alt="Ploeg 3">
+                <p>Ploeg 3</p>
+            </div>
+            <div class="team">
+                <img src="img/Vlaamse.jpg" alt="Ploeg 4">
+                <p>Ploeg 4</p>
+            </div>
+            <!-- Voeg meer teams toe hier -->
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
